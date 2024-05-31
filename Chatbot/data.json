@@ -1,0 +1,18 @@
+{"intents": [
+          {"tag": "jadwal_dokter",
+            "patterns": ["Jadwal dokter minggu ini", "Dokter yang bertugas hari ini", "Siapa dokter besok?"],
+            "responses": ["Jadwal dokter untuk minggu ini adalah sebagai berikut:\nSenin: Dr. Andi\nSelasa: Dr. Budi\nRabu: Dr. Citra\nKamis: Dr. Dedi\nJumat: Dr. Endah\nSabtu: Dr. Feri\nMinggu: Dr. Gita"],
+            "context": [""]    
+        },
+          {"tag": "layanan_IGD",
+            "patterns": ["Layanan IGD", "Apakah ada IGD?", "IGD buka jam berapa?"],
+            "responses": ["Layanan IGD tersedia 24 jam setiap hari. Silakan datang langsung ke rumah sakit."],
+            "context": [""]
+        },
+          {"tag": "layanan_non_IGD",
+            "patterns": ["Layanan non-IGD", "Layanan medis selain IGD", "Nomor rumah sakit untuk non-IGD"],
+            "responses": ["Untuk layanan non-IGD, silakan hubungi nomor rumah sakit kami di: 021-1234567."],
+            "context": [""]
+        }
+        ]
+}
