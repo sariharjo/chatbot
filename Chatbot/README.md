@@ -1,7 +1,7 @@
 
 # Chatbot dengan Flask
 
-Ada 2 cara untuk menjalankan aplikasi Chatbot ini pada local direkotri anda
+Ada 2 cara untuk menjalankan aplikasi Chatbot ini pada local direktori anda
 
 1. Jalankan Langsung
 2. Jalankan dengan Custom Data
